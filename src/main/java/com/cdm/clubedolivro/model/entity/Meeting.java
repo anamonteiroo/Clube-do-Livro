@@ -48,4 +48,5 @@ public class Meeting {
     @Column(nullable = true)
     @Convert(converter = Jsr310JpaConverters.LocalDateConverter.class)
     private LocalDate deleteDate;
+
 }
